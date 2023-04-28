@@ -32,7 +32,7 @@ const HeroBanner = () => {
       <Typography 
         lineHeight="35px"
         fontSize="22px"
-        mb={3}
+        mb={4}
       >
         Checkout the most effective exercises
       </Typography>
@@ -40,6 +40,10 @@ const HeroBanner = () => {
         variant='contained'
         color='error'
         href='#exercises'
+        sx={{ 
+            backgroundColor: '#ff2625',
+            padding: '10px'
+        }}
       >
         Explore Exercises
       </Button>
